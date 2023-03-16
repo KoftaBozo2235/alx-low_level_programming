@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- *Main: is a thing
- *Description: the function is a function
- *Return: Return is a Return
+ *main: is a thing
+ *return: Return is a Return
  */
 int main(void)
 {
