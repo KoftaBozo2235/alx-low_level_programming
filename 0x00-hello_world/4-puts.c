@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main is a thing
+ *Main: is a thing
  *Description: the function is a function
  *Return: Return is a Return
  */
