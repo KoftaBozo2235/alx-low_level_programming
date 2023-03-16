@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main: is a thing
- *return: Return is a Return
+ *main - is a thing
+ *Return: Return is a Return
  */
 int main(void)
 {
