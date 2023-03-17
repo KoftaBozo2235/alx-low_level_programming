@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-        char hambola = 'z';
+char hambola = 'z';
 
-        while (hambola >= 'a')
-        {
-                putchar(hambola);
-                hambola--;
-        }
-        putchar('\n');
-        return (0);
+while (hambola >= 'a')
+{
+putchar(hambola);
+hambola--;
+}
+putchar('\n');
+return (0);
 }
