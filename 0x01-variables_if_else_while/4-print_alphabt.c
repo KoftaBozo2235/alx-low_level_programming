@@ -1,22 +1,22 @@
 #include <stdio.h>
 /**
- * main - main
- * Return: return
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
+ * Return: 0
  */
 int main(void)
 {
-char hambola = 'a';
+	char c = 'a';
 
-for (;hambola <= 'z';)
-{
-if (hambola == 'e' || hambola == 'q')
-{
-continue;
-}
-putchar(hambola);
-hambola++;
-}
+	while (c <= 'z')
+	{
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+		c++;
+	}
 
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
