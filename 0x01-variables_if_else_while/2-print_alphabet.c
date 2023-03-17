@@ -3,10 +3,11 @@
  * main - main
  * Return: return
  */
-int main(void){
+int main(void)
+{
 	char hambola = 'a';
-	
-	while (hambola <='z')
+
+	while (hambola <= 'z')
 	{
 		putchar(hambola);
 		hambola++;
