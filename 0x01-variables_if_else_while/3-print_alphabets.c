@@ -5,21 +5,21 @@
  */
 int main(void)
 {
-        char hambola = 'a';
-	char hambola2 = 'A';
+char hambola = 'a';
+char hambola2 = 'A';
 
-        while (hambola <= 'z')
-        {
-                putchar(hambola);
-                hambola++;
-        }
+while (hambola <= 'z')
+{
+putchar(hambola);
+hambola++;
+}
 
-	while (hambola2 <= 'Z')
+while (hambola2 <= 'Z')
 	{
-		putchar(hambola2);
-		hambola2++;
+putchar(hambola2);
+hambola2++;
 	}
 
-        putchar('\n');
-        return (0);
+putchar('\n');
+return (0);
 }
