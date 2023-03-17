@@ -12,7 +12,7 @@ while (n <= 9)
 putchar(48 + n);
 n++;
 }
-while (m <= 4)
+while (m <= 5)
 {
 putchar(97 + m);
 m++;
