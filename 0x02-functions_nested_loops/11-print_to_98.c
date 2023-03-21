@@ -19,4 +19,5 @@ printf("%i, ", n);
 n--;
 }
 printf("98");
+putchar("\n");
 }
