@@ -6,5 +6,20 @@
  */
 int print_sign(int n)
 {
-return (n > 0);
+int value
+if (n > 0)
+{
+printf("+");
+value = 1;
 }
+else if (n = 0)
+{
+printf("0");
+value = 0;
+}
+else if (n > 0)
+{
+prinf("-")
+value = -1;
+}
+return (value);
