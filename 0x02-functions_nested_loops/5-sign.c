@@ -26,5 +26,5 @@ else
 	_putchar('-');
 }
 
-return (test);
+return (value);
 }
