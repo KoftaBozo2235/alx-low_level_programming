@@ -7,12 +7,12 @@
 
 int _islower(int c)
 {
-if( islower(c))
+if(_islower(c))
 {
-Return (1);
+return (1);
 }
 else
 {
-Return (0);
+return (0);
 }
 }
