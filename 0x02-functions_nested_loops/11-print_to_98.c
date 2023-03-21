@@ -19,5 +19,4 @@ printf("%i, ", n);
 n--;
 }
 printf("98");
-return (0);
 }
