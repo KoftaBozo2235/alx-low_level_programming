@@ -4,11 +4,11 @@
  * @c : character to check the case
  * Return:0 or 1
  */
-int _abs(int)
+int _abs(int n)
 {
-if (int < 0)
+if (n < 0)
 {
-int = int * -1;
+n = n * -1;
 }
-return(int);
+return(n);
 }
