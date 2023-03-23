@@ -14,5 +14,5 @@ while(i <= 9)
 	_putchar(i);
 	i++;
 }
-_putchar(i);
+_putchar("i\n");
 }
