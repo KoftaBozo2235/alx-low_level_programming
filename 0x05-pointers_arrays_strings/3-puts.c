@@ -12,7 +12,7 @@ int i = 0;
 
 while (str[i])
 {
-printf("%i", str[i]);
+_putchar(str[i]);
 i++;
 }
 }
