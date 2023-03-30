@@ -6,23 +6,20 @@
  * @n: number of bytes
  * Return: void
 */
-
 char *_strncat(char *dest, char *src, int n)
 {
-int i = 0;
-int j = 0;
 
-while (dest[i] !='\0')
-{
-i++;
-}
+	int i;
+	int j;
 
-while (j < n && src[j] != '\0')
-{
-j++;
-dest[i + j] = src[j];
-}
+	for (i = 0; dest[i] != '\0'; i++)
+	;
 
-dest[i + j] = '\0';
-return (dest);
+	for (j = 0; j < n && src[j] != '\0'; j++)
+		dest[j + i] = src[j];
+
+	/*should end with a end of string char*/
+	dest[i + j] = '\0';
+
+	return (dest);
 }
