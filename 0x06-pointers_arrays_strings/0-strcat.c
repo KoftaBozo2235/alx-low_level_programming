@@ -8,13 +8,21 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i;
-	int j;
-
-	   for(int i=0; src[j]!='\0'; j++)
-    {
-
-        dest[i]=src[j];
-        i++;
-    }
-    dest[i]='\0';
+	
+	char *hamdy = dest;
+	int i = 0;
+	
+	
+	while (dest[i] !='\0')
+	{
+		i++;
+	}
+	
+	while (src[i] !='\0')
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	dest[i]='\0';
+	return(hamdy);
+}
