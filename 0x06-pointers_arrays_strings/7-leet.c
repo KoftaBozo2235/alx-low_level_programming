@@ -22,7 +22,7 @@ char *leet(char *s)
 		if (s[i] == thing[ii] || s[i] == thing2[ii])
 		{
 			s[i] = thing3[ii];
-			break;
+
 		}
 		}
 	i++;
