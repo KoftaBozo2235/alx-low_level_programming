@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
  * *_strncat - concatenates n bytes of two strings
@@ -21,7 +20,7 @@ i++;
 while (j < n && src[j] != '\0')
 {
 j++;
-dest[i + j] = src[i];
+dest[i + j] = src[j];
 }
 
 dest[i + j] = '\0';
