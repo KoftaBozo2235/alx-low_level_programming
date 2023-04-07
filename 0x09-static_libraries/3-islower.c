@@ -1,10 +1,19 @@
 #include "main.h"
+
 /**
- * _islower - check for lower case letter
- * @c : character to check the case
- * Return:0 or 1
+ * _islower - check the code for Holberton School students.
+ *
+ * @c:  is a parameter
+ *
+ * Return: Always 0.
  */
+
 int _islower(int c)
 {
-return (c >= 97 && c <= 122);
+	if (c >= 97 && c <= 122)
+	{
+		return (1);
+	}
+	return (0);
 }
+

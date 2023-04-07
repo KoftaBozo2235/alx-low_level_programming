@@ -1,14 +1,19 @@
 #include "main.h"
+
 /**
- * _abs - return abs value
- * @n : number to check
- * Return:0 or 1
+ * _abs - check the code for Holberton School students.
+ *
+ * @n: is an integer argument
+ *
+ * Return: Always 0.
  */
+
 int _abs(int n)
 {
-if (n < 0)
-{
-n = n * -1;
+	if (n >= 0)
+	{
+		return (n);
+	}
+	return (-n);
 }
-return (n);
-}
+
