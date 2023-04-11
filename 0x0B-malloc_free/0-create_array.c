@@ -32,5 +32,5 @@ while (i < size)
 i++;
 }
 
-return (buffer);
+return (thing);
 }
