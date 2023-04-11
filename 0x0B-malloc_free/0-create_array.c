@@ -19,7 +19,7 @@ if (size == 0)
 
 thing = (char *) malloc(size * sizeof(c));
 
-if (thing = 0)
+if (thing == 0)
 {
 	return (NULL);
 }
