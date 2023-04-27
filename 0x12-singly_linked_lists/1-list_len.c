@@ -8,8 +8,8 @@
 
 size_t list_len(const list_t *h)
 {
-	size_t thing;
-	int i;
+	const list_t *thing;
+	unsigned int i = 0;
 
 	thing = h;
 	while (thing)
